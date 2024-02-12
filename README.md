@@ -1,4 +1,4 @@
-# LIARA-CLI
+# liara-cli
 
 Liara CLI application, written in Go.
 
@@ -25,7 +25,7 @@ liara-cli COMMAND
 # Commands
 
 <!-- commands -->
-- [LIARA-CLI](#liara-cli)
+- [liara-cli](#liara-cli)
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [Commands](#commands)
