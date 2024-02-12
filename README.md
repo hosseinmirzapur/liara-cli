@@ -2,98 +2,23 @@
 
 Liara CLI application, written in Go.
 
-- [LIARA-CLI](#liara-cli)
-- [Usage](#usage)
-- [Commands](#commands)
-  - [`liara account add`](#liara-account-add)
-  - [`liara account list`](#liara-account-list)
-  - [`liara account ls`](#liara-account-ls)
-  - [`liara account remove`](#liara-account-remove)
-  - [`liara account rm`](#liara-account-rm)
-  - [`liara account use`](#liara-account-use)
-  - [`liara app create`](#liara-app-create)
-  - [`liara app delete`](#liara-app-delete)
-  - [`liara app list`](#liara-app-list)
-  - [`liara app logs`](#liara-app-logs)
-  - [`liara app ls`](#liara-app-ls)
-  - [`liara app remove`](#liara-app-remove)
-  - [`liara app restart`](#liara-app-restart)
-  - [`liara app rm`](#liara-app-rm)
-  - [`liara app shell`](#liara-app-shell)
-  - [`liara app start`](#liara-app-start)
-  - [`liara app stop`](#liara-app-stop)
-  - [`liara autocomplete [SHELL]`](#liara-autocomplete-shell)
-  - [`liara bucket create`](#liara-bucket-create)
-  - [`liara bucket delete`](#liara-bucket-delete)
-  - [`liara bucket list`](#liara-bucket-list)
-  - [`liara bucket ls`](#liara-bucket-ls)
-  - [`liara create`](#liara-create)
-  - [`liara db backup create`](#liara-db-backup-create)
-  - [`liara db backup dl`](#liara-db-backup-dl)
-  - [`liara db backup download`](#liara-db-backup-download)
-  - [`liara db backup list`](#liara-db-backup-list)
-  - [`liara db backup ls`](#liara-db-backup-ls)
-  - [`liara db create`](#liara-db-create)
-  - [`liara db list`](#liara-db-list)
-  - [`liara db ls`](#liara-db-ls)
-  - [`liara db remove`](#liara-db-remove)
-  - [`liara db resize`](#liara-db-resize)
-  - [`liara db rm`](#liara-db-rm)
-  - [`liara db start`](#liara-db-start)
-  - [`liara db stop`](#liara-db-stop)
-  - [`liara delete`](#liara-delete)
-  - [`liara deploy`](#liara-deploy)
-  - [`liara disk create`](#liara-disk-create)
-  - [`liara env list`](#liara-env-list)
-  - [`liara env ls`](#liara-env-ls)
-  - [`liara env set [ENV]`](#liara-env-set-env)
-  - [`liara env unset [ENV]`](#liara-env-unset-env)
-  - [`liara help [COMMANDS]`](#liara-help-commands)
-  - [`liara login`](#liara-login)
-  - [`liara logs`](#liara-logs)
-  - [`liara mail create`](#liara-mail-create)
-  - [`liara mail delete`](#liara-mail-delete)
-  - [`liara mail list`](#liara-mail-list)
-  - [`liara mail ls`](#liara-mail-ls)
-  - [`liara mail send`](#liara-mail-send)
-  - [`liara plan list`](#liara-plan-list)
-  - [`liara plan ls`](#liara-plan-ls)
-  - [`liara restart`](#liara-restart)
-  - [`liara shell`](#liara-shell)
-  - [`liara start`](#liara-start)
-  - [`liara stop`](#liara-stop)
-  - [`liara version`](#liara-version)
-  - [`liara zone ch`](#liara-zone-ch)
-  - [`liara zone check`](#liara-zone-check)
-  - [`liara zone create`](#liara-zone-create)
-  - [`liara zone del`](#liara-zone-del)
-  - [`liara zone delete`](#liara-zone-delete)
-  - [`liara zone get`](#liara-zone-get)
-  - [`liara zone list`](#liara-zone-list)
-  - [`liara zone ls`](#liara-zone-ls)
-  - [`liara zone record create ZONE`](#liara-zone-record-create-zone)
-  - [`liara zone record get`](#liara-zone-record-get)
-  - [`liara zone record list`](#liara-zone-record-list)
-  - [`liara zone record ls`](#liara-zone-record-ls)
-  - [`liara zone record remove`](#liara-zone-record-remove)
-  - [`liara zone record rm`](#liara-zone-record-rm)
-  - [`liara zone record update`](#liara-zone-record-update)
-  - [`liara zone rm`](#liara-zone-rm)
+# Requirements
 
+- go - version 1.20 or higher
+
+>
+> Note: You can also navigate to the `releases` section and download your needed binary for your operating system.
+>
 
 # Usage
 
 <!-- usage -->
-```sh-session
-$ npm install -g @liara/cli
-$ liara COMMAND
-running command...
-$ liara (--version|-v)
-@liara/cli/5.6.0 linux-x64 node-v18.12.0
-$ liara --help [COMMAND]
-USAGE
-  $ liara COMMAND
-...
+```bash
+go install github.com/liara-cloud/liara-cli
+
+liara-cli COMMAND
+
+
 ```
 <!-- usagestop -->
 
@@ -101,6 +26,7 @@ USAGE
 
 <!-- commands -->
 - [LIARA-CLI](#liara-cli)
+- [Requirements](#requirements)
 - [Usage](#usage)
 - [Commands](#commands)
   - [`liara account add`](#liara-account-add)
